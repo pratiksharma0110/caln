@@ -94,7 +94,7 @@ from any directory
 
 ## 📁 Keeping the Project in `~/Desktop/proj`
 
-Right now, you can keep the project in `~/Desktop/proj` and just recompile it anytime you make changes.
+ keep the project in `~/Desktop/proj` and just recompile it anytime you make changes.(path is hardcoded lol so just bear with it for a while)
 
 ```bash
 cd ~/Desktop/proj/caln
