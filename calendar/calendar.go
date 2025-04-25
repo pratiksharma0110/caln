@@ -114,7 +114,7 @@ func PrintNepaliCalendar(data [][]map[string]any) {
 
 	nepYear, nepMonth, today := currentDate(data)
 
-	start_day, err := findDay(1, 1)
+	start_day, err := findDay(nepMonth, 1)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
